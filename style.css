@@ -36,6 +36,10 @@ body {
   font-weight: 800;
 }
 .Card_1 {
+  background-image: url("images/bg-pattern-quotation.svg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-position-x: 80%;
   background-color: hsl(263, 55%, 52%);
   margin-block-end: 1rem;
   border-radius: 8px;
@@ -98,7 +102,7 @@ body {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
-@media screen and (min-width: 45rem) {
+@media screen and (min-width: 50rem) {
   body {
     background-color: hsl(210, 46%, 95%);
     min-height: 90vh;
