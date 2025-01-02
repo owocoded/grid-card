@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: hsl(210, 46%, 95%);
+  font-size: 13px;
+  display: block;
+  margin-inline-start: 1rem;
+  margin: 1.2rem;
+}
+
+.avater img {
+  max-inline-size: 100%;
+  block-size: auto;
+  border-radius: 50%;
+  border: 2px solid hsl(0, 0%, 81%);
+}
+.Card_4 .avater img {
+  border: 2px solid hsl(263, 55%, 52%);
+}
+.avater {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: hsl(0, 0%, 81%);
+  margin-block-end: 1rem;
+}
+.avater .name {
+  margin-block-start: 1rem;
+}
+.Card_5 .avater .name h3,
+.Card_3 .avater .name h3 {
+  color: hsl(217, 19%, 35%);
+  font-weight: 800;
+}
+.Card_1 {
+  background-color: hsl(263, 55%, 52%);
+  margin-block-end: 1rem;
+  border-radius: 8px;
+  padding: 10px 20px;
+}
+.Card_1 h2,
+.Card_2 h2,
+.Card_4 h2 {
+  color: hsl(0, 0%, 100%);
+  padding-bottom: 1rem;
+}
+.Card_1 p,
+.Card_2 p,
+.Card_3 p,
+.Card_4 p,
+.Card_5 p {
+  color: hsl(0, 0%, 81%);
+  padding-bottom: 1rem;
+  opacity: 70%;
+  font-weight: 500;
+}
+.Card_5 h2,
+.Card_3 h2 {
+  color: hsl(217, 19%, 35%);
+  margin-bottom: 1rem;
+}
+.Card_3 p,
+.Card_5 p {
+  color: hsl(217, 19%, 35%);
+  margin-bottom: 1rem;
+}
+.Card_2 {
+  background-color: hsl(217, 19%, 35%);
+  margin-block-end: 1rem;
+  border-radius: 8px;
+  padding: 10px 20px;
+}
+.Card_3 {
+  background-color: hsl(0, 0%, 100%);
+  margin-block-end: 1rem;
+  border-radius: 8px;
+  padding: 10px 20px;
+}
+.Card_4 {
+  background-color: hsl(219, 29%, 14%);
+  margin-block-end: 1rem;
+  border-radius: 8px;
+  padding: 10px 20px;
+}
+.Card_5 {
+  background-color: hsl(0, 0%, 100%);
+  margin-block-end: 1rem;
+  border-radius: 8px;
+  padding: 10px 20px;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+@media screen and (min-width: 45rem) {
+  body {
+    background-color: hsl(210, 46%, 95%);
+    min-height: 90vh;
+    font-family: "Figtree", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  main {
+    width: 80%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+  }
+  .Card_1 {
+    width: 100%;
+    grid-column: 1 / span 2;
+  }
+  .Card_2 {
+    width: 100%;
+  }
+  .Card_3 {
+    width: 100%;
+  }
+  .Card_4{
+    width: 100%;
+    grid-column: 2 / span 2;
+    grid-row: 2;
+  }
+  .Card_5{
+    width: 100%;
+    padding-bottom: 0;
+    grid-column: 4;
+    grid-row: 1 / span 2;
+  }
+}
